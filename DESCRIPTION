@@ -1,0 +1,21 @@
+Package: RNAseqDE
+Type: Package
+Title: A pipeline for differential expression analyses in R
+Version: 1.0
+Date: 2018-05-07
+Author: John T. Lovell
+Maintainer: John T. Lovell <johntlovell@gmail.com>
+Description: A set of functions analyze and plot gene expression count data.
+License: GPL-3
+LazyData: TRUE
+Depends:
+    limma,
+    qvalue,
+    edgeR,
+    DESeq2,
+    topGO,
+    igraph
+Suggests:
+    knitr
+RoxygenNote: 6.0.1
+VignetteBuilder: knitr
